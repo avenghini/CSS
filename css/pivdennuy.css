@@ -30,6 +30,7 @@ nav .logo {
     font-weight: bold;
     font-weight: 900;
     transition: 3s;
+    color: white;
 }
 
 nav.black .logo {
@@ -57,6 +58,7 @@ nav ul li a {
     text-transform: uppercase;
     font-weight: 900;
     transition: .3s;
+    color : white;
 }
 
 nav.black ul li a {
