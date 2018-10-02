@@ -238,7 +238,7 @@ header {
 
 /* parallax */
 .parallax {
-    background-image: url("parallax/road.jpg");
+    background-image: url("parallax/paral-one.jpg");
     min-height: 400px;
     background-attachment: fixed;
     background-position: center;
@@ -371,7 +371,7 @@ header {
 
 /* parallax */
 .parallax2 {
-    background-image: url("parallax/desert.jpg");
+    background-image: url("parallax/paral-two.jpg");
     min-height: 400px;
     background-attachment: fixed;
     background-position: center;
@@ -536,7 +536,7 @@ input[type=submit]:hover {
 
 /* parallax */
 .parallax3 {
-    background-image: url("parallax/adventure.jpg");
+    background-image: url("parallax/paral-three.jpg");
     min-height: 400px;
     background-attachment: fixed;
     background-position: center;
