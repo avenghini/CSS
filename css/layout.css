@@ -66,3 +66,63 @@
     }
   }
 
+@media only screen and (max-width: 900px) {
+	.header	{border-bottom:#695437 3px solid;top:27px}
+	.homesidebar, main	{top:120px;}
+	main	{width:80%}
+	article	{line-height:160%;}
+	.colw,.colr		{width:100%;float:none}
+
+	.mainimageframe			{height:240px;}
+	nav.main ul li a 		{font-size:.9em}
+	.homeheader	,#bgslider	{left:30px;}
+	.homeheader				{text-align:left;font-size:1.6em;width:200px;margin-left:0 !important}
+	#bgslider				{margin-left:0 !important;}
+
+	.socialbuts				{bottom:200px}
+	
+	nav.super				{z-index:6;position:absolute;width:100%;}
+	nav.super a				{display:block;text-align:left;padding:3px 20px;background:#d3d3d3;margin:0;border-bottom:#695437 solid 1px;color:#625444;font-size:.9em}
+	nav.super a:hover		{background:#FFF;}
+	nav.super section		{display:none}
+	nav.super a.dropsupermenu			{display:block;border-bottom:0;text-align:right;}
+	nav.super a.dropsupermenu span	{margin-right:10px}
+	.dropsupermenu span		{margin-top:5px;}
+	
+	.bookingform			{width:60%}
+	.bookingform div		{width:41%;}
+	.bookingform div.r4col		{width:10%}
+	.bookingform .r4colok		{display:block;margin-bottom:-10px;}
+	.bookingform .r4colh			{display:none}
+	.bookingform div.r1col			{display:none;}	
+	
+
+	nav.main	{height:0;overflow:hidden;}
+	.mainmenutoggler	{display:block}
+	#languages	{display:block;width:32px;height:26px;top:30px;right:80px;}
+	#languages li a {line-height:24px;height:24px}
+
+}
+
+@media only screen and (max-width: 690px) {
+
+	.homesidebar	{top:auto;width:auto;bottom:60px;text-align:right;width:240px}
+	.homesidebar a {height:auto;background:#6a0fc4;display:inline-block;clear:both;margin-bottom:1px;width:auto;float:none;}
+	.homesidebar a span	{text-align:right}
+	.homesidebar a b	{-webkit-transform:none;-moz-transform:none;-ms-transform:none;-o-transform:none;transform:none;font-size:1.2em;position:relative;text-align:right;width:auto;bottom:auto;padding:10px 15px;}
+	.homesidebar a:hover	{background:#362C1D}
+	.homesidebar .h1	{display:none;}
+	#bgslider a	{width:25px;}
+	footer	{text-align:right}
+	.bookingform	{display:block;width:auto;margin:12px 50px 0 120px;}
+	.mainimageframe			{height:200px;}
+	
+	.onethird div,	.onethird span	{width:100%;margin-right:0;height:auto;padding-bottom:0px;}
+	.onethird div a h2, .onethird span a h2	{height:auto}
+	.socialbuts, .homeheader, #bgslider, .tripadv		{left:10px;}
+
+	.staff li	{width:29%;margin-right:5%;height:330px;}
+	.staff li:nth-child(3n)	{margin-right:0;}
+
+}
+
