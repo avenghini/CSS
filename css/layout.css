@@ -74,7 +74,7 @@
 	.colw,.colr		{width:100%;float:none}
 
 	.mainimageframe			{height:240px;}
-	nav.main ul li a 		{font-size:.9em}
+	nav.main ul li a 		{font-size: 15em}
 	.homeheader	,#bgslider	{left:30px;}
 	.homeheader				{text-align:left;font-size:1.6em;width:200px;margin-left:0 !important}
 	#bgslider				{margin-left:0 !important;}

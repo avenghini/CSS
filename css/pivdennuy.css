@@ -26,7 +26,7 @@ nav .logo {
     padding: 22px 20px;
     height: 80px;
     float: left;
-    font-size: 28px;
+    font-size: 50px;
     font-weight: bold;
     font-weight: 900;
     transition: 3s;
@@ -39,7 +39,7 @@ nav.black .logo {
 
 nav ul {
     list-style: none;
-    float: right;
+    float: left;
     margin: 0;
     padding: 0;
     display: flex;
@@ -51,7 +51,7 @@ nav ul li {
 }
 
 nav ul li a {
-    line-height: 80px;
+    line-height: 81px;
     color: #151515;
     padding: 12px 30px;
     text-decoration: none;
@@ -76,6 +76,9 @@ nav ul li a:hover {
 nav.black ul li a:hover {
     color: rgb(255, 255, 255);
 }
+div.class content-right {
+    position: absolute 
+}
 
 video {
     position: absolute;
@@ -97,7 +100,16 @@ header {
     height: 100vh;
     position: relative;
 }
-
+header homesidebar 
+     .homesidebar	{width:240px;position:absolute;right:30px;top:230px;bottom:55px;}
+                .homesidebar a	{width:25%;position:relative;height:100%;float:left;overflow:hidden;text-decoration:none;color:#FFF;}
+                .homesidebar a	span {width:100%;height:100%;background:url(/images/menu-bg.png);left:0;top:0;transition:.5s;position:absolute;display:block;}
+                .homesidebar a:hover span	{left:-100%}
+                .homesidebar a b	{display:block;text-transform:uppercase;-webkit-transform:rotate(270deg);-moz-transform:rotate(270deg);-ms-transform:rotate(270deg);-o-transform:rotate(270deg);transform:rotate(270deg);font-weight:100;font-size:2em;position:absolute;white-space:nowrap;bottom:55px;text-align:left;width:100%;text-align:left;}
+                .h1 {background:url(/images/h1.jpg) left bottom repeat}
+                .h2	{background:url(/images/h2.jpg) left bottom repeat}
+                .h3	{background:url(/images/h3.jpg) left bottom repeat}
+                .h4	{background:url(/images/h4.jpg) left bottom repeat}
 .head-title {
     font-family: 'Kaushan Script', cursive;
     margin: 0;
@@ -128,7 +140,7 @@ header {
     display: block;
 }
 
-.stanislav-personal-photo {
+.////////-personal-photo {
     margin-bottom: 20px;
 }
 
@@ -240,7 +252,7 @@ header {
 
 /* parallax */
 .parallax {
-    background-image: url("parallax/paral-one.jpg");
+    background-image: url("parallax/par-one.JPG");
     min-height: 400px;
     background-attachment: fixed;
     background-position: center;
@@ -373,7 +385,7 @@ header {
 
 /* parallax */
 .parallax2 {
-    background-image: url("parallax/paral-two.jpg");
+    background-image: url("parallax/par-two.JPG");
     min-height: 400px;
     background-attachment: fixed;
     background-position: center;
@@ -538,7 +550,7 @@ input[type=submit]:hover {
 
 /* parallax */
 .parallax3 {
-    background-image: url("parallax/paral-three.jpg");
+    background-image: url("parallax/par-three.JPG");
     min-height: 400px;
     background-attachment: fixed;
     background-position: center;
@@ -546,6 +558,39 @@ input[type=submit]:hover {
     background-size: cover;
 }
 
+.parallax4 {
+    background-image: url("parallax/par-sauna.jpg");
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax5 {
+    background-image: url("parallax/par-beauty.jpg");
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax6 {
+    background-image: url("parallax/par-conf2.jpg");
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax7 {
+    background-image: url("parallax/par-last.jpg");
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 /*footer*/
 .end-of-site {
     width: 100%;
