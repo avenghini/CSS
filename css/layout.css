@@ -66,6 +66,28 @@
     }
   }
 
+@media only screen and (min-width: 1600px){
+
+	.mainimageframe	{height:400px;}
+}
+
+
+@media only screen and (max-width: 1000px){
+
+	nav.main ul li a 	{padding:0 5px}
+	.bookingform		{width:80%}
+
+	.onethird div, .onethird span 		{width:48%;margin-right:3%}
+	.onethird div:nth-child(3n), .onethird span:nth-child(3n) {margin-right:3%;}
+	.onethird div:nth-child(2n),.onethird span:nth-child(3n)	{margin-right:0}
+
+	.onethird div:nth-child(3n+1), .onethird span:nth-child(3n+1) {clear:none}
+	.onethird div:nth-child(2n+1), .onethird span:nth-child(2n+1) {clear:left}
+	
+	.staff li	{width:21%;margin-right:3%;height:320px;}
+}
+
+
 @media only screen and (max-width: 900px) {
 	.header	{border-bottom:#695437 3px solid;top:27px}
 	.homesidebar, main	{top:120px;}
@@ -74,7 +96,7 @@
 	.colw,.colr		{width:100%;float:none}
 
 	.mainimageframe			{height:240px;}
-	nav.main ul li a 		{font-size: 15em}
+	nav.main ul li a 		{font-size:.9em}
 	.homeheader	,#bgslider	{left:30px;}
 	.homeheader				{text-align:left;font-size:1.6em;width:200px;margin-left:0 !important}
 	#bgslider				{margin-left:0 !important;}
@@ -107,7 +129,7 @@
 @media only screen and (max-width: 690px) {
 
 	.homesidebar	{top:auto;width:auto;bottom:60px;text-align:right;width:240px}
-	.homesidebar a {height:auto;background:#6a0fc4;display:inline-block;clear:both;margin-bottom:1px;width:auto;float:none;}
+	.homesidebar a {height:auto;background:#695437;display:inline-block;clear:both;margin-bottom:1px;width:auto;float:none;}
 	.homesidebar a span	{text-align:right}
 	.homesidebar a b	{-webkit-transform:none;-moz-transform:none;-ms-transform:none;-o-transform:none;transform:none;font-size:1.2em;position:relative;text-align:right;width:auto;bottom:auto;padding:10px 15px;}
 	.homesidebar a:hover	{background:#362C1D}
@@ -126,3 +148,71 @@
 
 }
 
+
+@media only screen and (max-width: 520px) {
+	#bgslider,
+	.homeheader, .slidefader	{display:none}
+	.header	{text-align:left;height:60px;}
+	#logo {height:60px;width:120px;margin:0 0 0 10px;/*background:url(/im/logo-small.png) center center no-repeat;*/}
+	.mainmenutoggler	{top:20px;right:10px;}
+	#languages			{top:20px;}
+	nav.super a.dropsupermenu	span		{margin-right:-10px;}
+	.bookingform div span i	{padding-left:5px;font-size:.8em}
+	.bookingform div span input	{background-image:none}
+	.bookingform	{margin-left:100px;}
+
+	main	{width:100%;top:90px}
+	article	{margin:0 5px 0 10px;padding-right:5px}
+	.infopanel		{right:10px;}
+	.infopanel a	{display:none}
+	.infopanel a:last-child	{display:inline-block;}	
+	.titlebar		{padding:20px 10px;}
+	.titlebar h1	{margin-right:40px;}
+
+	#moodystuff		{top:90px}
+	.wififree		{display:none}
+
+	.socialbuts		{bottom:-80px;width:31px;height:207px;left:-30px;position:fixed}
+	.socialbuts a	{clear:both;}
+	.socialbuts a.menuarr	{display:block;width:30px;}
+
+}
+
+
+
+@media only screen and (max-width: 420px) {
+	.zmolo	{display:none}
+	.bookingform	{margin-left:10px;margin-right:10px;text-align:left;}
+	.tripadv		{display:none}
+	.socialbuts	 .tripadv {display:block;clear:both;position:relative;left:0 !important;top:0;}
+	.tripadv img	{float:left;}
+	.ocancel	{clear:both;margin:30px 0 30px;}
+
+}
+
+
+@media only screen and (max-width: 320px), screen and (max-height: 360px){
+	.mainimageframe			{height:170px;}
+	main	{position:relative;top:auto;bottom:auto;margin-top:27px;height:100%}
+	article	{height:auto;margin-right:10px;}
+	h1	{font-size:0.9em;font-weight:bold}
+	.bookingform div span i	{font-size:.7em;position:absolute;left:5px;top:2px}
+	.bookingform div span 	{text-align:right;position:relative}
+	.bookingform div span input	{float:none}
+
+	.staff li,
+	.staff li:nth-child(3n)		{width:46%;margin-right:5%;height:300px;}
+	.staff li:nth-child(2n)	{margin-right:0}
+}
+
+
+@media only screen and (max-height: 280px), screen and (max-width: 480px){
+	.homesidebar	{bottom:auto;top:100px;}
+	.socialbuts		{bottom:auto;top:100px;}
+}
+
+
+/*biiiiiiiig*/
+@media only screen and (min-width: 1600px) {
+	.mainimageframe	{height:400px;}
+}

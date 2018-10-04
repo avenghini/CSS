@@ -48,8 +48,8 @@ var scrolltotop = {
     },
     init: function () {
         jQuery(document).ready(function (t) {
-            var o = scrolltotop
-                , s = document.all;
+            var o = scrolltotop,
+                s = document.all;
             o.cssfixedsupport = !s || s && "CSS1Compat" == document.compatMode && window.XMLHttpRequest,
                 o.$body = t(window.opera ? "CSS1Compat" == document.compatMode ? "html" : "body" : "html,body"),
                 o.$control = t('<div id="topcontrol">' + o.controlHTML + "</div>").css({
