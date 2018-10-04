@@ -5,16 +5,6 @@ body, html {
     max-width: 1920px;
 }
 
-navbar-header {
-    background-color: none;
-    border-color: none;
-}
-nav.navbar.navbar-default {
-    background-color: none;
-    border-color: none;
-    
-}
-
 nav {
     position: absolute;
     top: 0;
